@@ -3,6 +3,9 @@ body {
     font-family: Sans-serif;
 }
 
-.left {
+ul{
     text-align: left;
+    margin: auto;
+    width: 80%;
 }
+
