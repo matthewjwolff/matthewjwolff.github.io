@@ -1,11 +1,16 @@
 body {
     text-align: center;
     font-family: Sans-serif;
+    margin: auto;
+    width: 80%;
 }
 
 ul{
     text-align: left;
-    margin: auto;
-    width: 80%;
+}
+
+li{
+    margin-top: 10px;
+
 }
 
