@@ -6,12 +6,22 @@ body {
     background-color: #e0e0e0;
 }
 
+.mdc-card {
+    padding: 20px;
+    background-color: #ffffff;
+    list-style-position: inside;
+}
+
 ul{
     text-align: left;
 }
 
-li{
-    margin-top: 10px;
+.mdc-button {
+    background-color: #ffffff;
+}
 
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
