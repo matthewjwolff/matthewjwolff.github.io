@@ -3,11 +3,10 @@ body {
     font-family: Sans-serif;
     margin: auto;
     width: 80%;
-    background-color: #e0e0e0;
+    background-color: #d8d8d8;
 }
 
-.mdc-card {
-    padding: 20px;
+.card {
     background-color: #ffffff;
     list-style-position: inside;
 }
@@ -16,29 +15,30 @@ ul{
     text-align: left;
 }
 
-.mdc-button {
-    background-color: #ffffff;
-}
-
 li{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.mdc-tab-bar > li {
-    list-style-type: none;
-}
-
-.mdc-tab-bar{
+.navbar {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
     background-color: #3f51b5;
 }
 
-.main-tab {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: larger;
+.nav-item {
+    color: #1d2553;
 }
 
-.main-tab:hover {
+.navbar-brand {
     color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a.nav-item {
+    color:inherit;
 }
